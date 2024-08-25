@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabrouk BEN JBARA - Bilingual CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        .contact-info,
+        .experience,
+        .education,
+        .skills,
+        .certificates {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 0;
+        }
+
+        .section-title {
+            background-color: #2980b9;
+            color: white;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .language-switch {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .language-switch a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .language-section {
+            display: none;
+        }
+
+        .language-section.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="language-switch">
+        <a onclick="switchLanguage('french')">Français</a> |
+        <a onclick="switchLanguage('english')">English</a> |
+        <a onclick="switchLanguage('arabic')">Arabic</a>
+    </div>
+
+    <div class="container">
+        <!-- English Section -->
+        <div id="english" class="language-section active">
+            <h1>Mabrouk BEN JBARA</h1>
+            <div class="contact-info">
+                <p>Phone: 00216 21671765</p>
+                <p>Email: mbenjbaraa@gmail.com</p>
+                <p>Location: Tunis, Tunisia</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mabrouk-ben-jbara-478a0b127/">Mabrouk BEN JBARA</a></p>
+            </div>
+
+            <div class="section-title">Profile</div>
+            <p>Passionate C# .NET developer with 3+ years of experience, excelling in unit testing, clean code, and problem-solving. I thrive in dynamic, team-oriented environments and align my skills with company goals.</p>
+
+            <div class="section-title">Professional Experience</div>
+            <div class="experience">
+                <h3>C# Software Developer - EMWORKS</h3>
+                <p>Tataouine, Tunisia | 08/2020 - Present</p>
+                <ul>
+                    <li>Develop WPF desktop applications based on MVVM architecture, implement, test, and maintain high-performance electromagnetic simulations.</li>
+                    <li>Design, develop, deploy and integrate software solutions.</li>
+                    <li>Propose and implement new features.</li>
+                    <li>Participate in scrums and collaborate closely with the team.</li>
+                    <li>Write reports outlining issues encountered during software production.</li>
+                    <li>Conduct unit testing to verify that each component of the application functioned as expected.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Team Lead & Developer - PES by CONECT</h3>
+                <p>Tunis, Tunisia | 11/2019 - 02/2020</p>
+                <ul>
+                    <li>Collect, identify, and evaluate customer needs.</li>
+                    <li>Establish an application implementation schedule.</li>
+                    <li>Develop Desktop WinForms applications.</li>
+                    <li>Create a user guide for the created application.</li>
+                    <li>Perform unit tests to detect all bugs and ensure the quality of the application.</li>
+                </ul>
+            </div>
+
+            <div class="section-title">Education</div>
+            <div class="education">
+                <h3>Master's Degree in Industrial Computing</h3>
+                <p>Higher Institute of Computer Science and Multimedia of Medenine | 09/2016 - 09/2018</p>
+
+                <h3>Bachelor's Degree in Industrial Computing</h3>
+                <p>Higher Institute of Computer Science and Multimedia of Medenine | 09/2012 - 06/2015</p>
+
+                <h3>Baccalaureate in Computer Science</h3>
+                <p>Gabes Street High School | 09/2011 - 06/2012</p>
+            </div>
+
+            <div class="section-title">Skills</div>
+            <div class="skills">
+                <ul>
+                    <li>Languages: C#, C++</li>
+                    <li>Frameworks & Libraries: ASP.NET, .NET Framework, NUnit Test, MSTest</li>
+                    <li>Tools: Visual Studio 2019-2022, SOLIDWORKS, Autodesk Inventor</li>
+                    <li>Database Access: Entity Framework (ORM), LINQ</li>
+                    <li>Cloud Services: Azure DevOps, git, TFS</li>
+                    <li>User Interface: XAML, DevExpress</li>
+                </ul>
+            </div>
+
+            <div class="section-title">Certificates</div>
+            <div class="certificates">
+                <ul>
+                    <li>DevOps Methodology</li>
+                    <li>MTA 98-361 Fundamentals of C# Software Development</li>
+                    <li>Scrum Fundamentals Certified (SFC)</li>
+                    <li>C# for Developers .NET (Coursera) - Score: 90.62%</li>
+                    <li>The C++ Learning Guide (Coursera)</li>
+                    <li>Italian Language</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- French Section -->
+        <div id="french" class="language-section">
+            <h1>Mabrouk BEN JBARA</h1>
+            <div class="contact-info">
+                <p>Téléphone: 00216 21671765</p>
+                <p>Email: mbenjbaraa@gmail.com</p>
+                <p>Localisation: Tunis, Tunisie</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mabrouk-ben-jbara-478a0b127/">Mabrouk BEN JBARA</a></p>
+            </div>
+
+            <div class="section-title">Profil</div>
+            <p>Développeur C# .NET passionné avec plus de 3 ans d'expérience, excellent dans les tests unitaires, le code propre et la résolution de problèmes. Je m'épanouis dans des environnements dynamiques et orientés vers le travail en équipe, en alignant mes compétences sur les objectifs de l'entreprise.</p>
+
+            <div class="section-title">Expérience Professionnelle</div>
+            <div class="experience">
+                <h3>Développeur de logiciels C# - EMWORKS</h3>
+                <p>Tataouine, Tunisie | 08/2020 - Présent</p>
+                <ul>
+                    <li>Développer des applications de bureau WPF basées sur l'architecture MVVM, implémenter, tester et maintenir des simulations électromagnétiques haute performance.</li>
+                    <li>Concevoir, développer, déployer et intégrer des solutions logicielles.</li>
+                    <li>Proposer et mettre en œuvre de nouvelles fonctionnalités.</li>
+                    <li>Participer aux scrums et collaborer étroitement avec l'équipe.</li>
+                    <li>Rédiger des rapports sur les problèmes rencontrés pendant la production du logiciel.</li>
+                    <li>Effectuer des tests unitaires pour vérifier que chaque composant de l'application fonctionne comme prévu.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Chef d'équipe & Développeur - PES par CONECT</h3>
+                <p>Tunis, Tunisie | 11/2019 - 02/2020</p>
+                <ul>
+                    <li>Collecter, identifier et évaluer les besoins des clients.</li>
+                    <li>Établir un calendrier de mise en œuvre de l'application.</li>
+                    <li>Développer des applications de bureau WinForms.</li>
+                    <li>Créer un guide utilisateur pour l'application créée.</li>
+                    <li>Effectuer des tests unitaires pour détecter tous les bugs et garantir la qualité de l'application.</li>
+                </ul>
+            </div>
+
+            <div class="section-title">Éducation</div>
+            <div class="education">
+                <h3>Master en Informatique Industrielle</h3>
+                <p>Institut Supérieur d'Informatique et Multimédia de Médenine | 09/2016 - 09/2018</p>
+
+                <h3>Licence en Informatique Industrielle</h3>
+                <p>Institut Supérieur d'Informatique et Multimédia de Médenine | 09/2012 - 06/2015</p>
+
+                <h3>Baccalauréat en Informatique</h3>
+                <p>Gabes Street High School | 09/2011 - 06/2012</p>
+            </div>
+
+            <div class="section-title">Compétences</div>
+            <div class="skills">
+                <ul>
+                    <li>Langues: C#, C++</li>
+                    <li>Cadres & Bibliothèques: ASP.NET, .NET Framework, NUnit Test, MSTest</li>
+                    <li>Outils: Visual Studio 2019-2022, SOLIDWORKS, Autodesk Inventor</li>
+                    <li>Accès aux bases de données: Entity Framework (ORM), LINQ</li>
+                    <li>Services Cloud: Azure DevOps, git, TFS</li>
+                    <li>Interface Utilisateur: XAML, DevExpress</li>
+                </ul>
+            </div>
+
+            <div class="section-title">Certificats</div>
+            <div class="certificates">
+                <ul>
+                    <li>Méthodologie DevOps</li>
+                    <li>MTA 98-361 Principes Fondamentaux du Développement Logiciel en C#</li>
+                    <li>Certifié Scrum Fundamentals (SFC)</li>
+                    <li>C# pour les Développeurs .NET (Coursera) - Score: 90.62%</li>
+                    <li>Guide d'Apprentissage du C++ (Coursera)</li>
+                    <li>Langue Italienne</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Arabic Section -->
+        <div id="arabic" class="language-section">
+            <h1>مبروك بن جبارة</h1>
+            <div class="contact-info">
+                <p>الهاتف: 00216 21671765</p>
+                <p>البريد الإلكتروني: mbenjbaraa@gmail.com</p>
+                <p>الموقع: تونس، تونس</p>
+                <p>لينكدإن: <a href="https://www.linkedin.com/in/mabrouk-ben-jbara-478a0b127/">مبروك بن جبارة</a></p>
+            </div>
+
+            <div class="section-title">الملف الشخصي</div>
+            <p>مطور C# .NET شغوف مع أكثر من 3 سنوات من الخبرة، متخصص في اختبار الوحدات، والبرمجة النظيفة، وحل المشكلات. أزدهر في بيئات العمل الديناميكية والموجهة نحو العمل الجماعي، وأتوافق مع أهداف الشركة.</p>
+
+            <div class="section-title">الخبرة المهنية</div>
+            <div class="experience">
+                <h3>مطور برمجيات C# - EMWORKS</h3>
+                <p>تطاوين، تونس | 08/2020 - الوقت الحاضر</p>
+                <ul>
+                    <li>تطوير تطبيقات سطح المكتب WPF المستندة إلى هندسة MVVM، وتنفيذ، واختبار، والحفاظ على محاكاة الكهرومغناطيسية عالية الأداء.</li>
+                    <li>تصميم وتطوير ونشر ودمج حلول البرمجيات.</li>
+                    <li>اقتراح وتنفيذ ميزات جديدة.</li>
+                    <li>المشاركة في الاجتماعات اليومية والتعاون عن كثب مع الفريق.</li>
+                    <li>كتابة تقارير توضح المشاكل التي واجهتها أثناء إنتاج البرنامج.</li>
+                    <li>إجراء اختبارات الوحدات للتحقق من أن كل مكون من مكونات التطبيق يعمل كما هو متوقع.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>قائد فريق ومطور - PES بواسطة CONECT</h3>
+                <p>تونس، تونس | 11/2019 - 02/2020</p>
+                <ul>
+                    <li>جمع، تحديد، وتقييم احتياجات العملاء.</li>
+                    <li>تحديد جدول زمني لتنفيذ التطبيق.</li>
+                    <li>تطوير تطبيقات WinForms المكتبية.</li>
+                    <li>إنشاء دليل المستخدم للتطبيق المُنشأ.</li>
+                    <li>إجراء اختبارات الوحدات لاكتشاف جميع الأخطاء وضمان جودة التطبيق.</li>
+                </ul>
+            </div>
+
+            <div class="section-title">التعليم</div>
+            <div class="education">
+                <h3>ماجستير في الحوسبة الصناعية</h3>
+                <p>المعهد العالي للإعلامية والوسائط المتعددة بميدنين | 09/2016 - 09/2018</p>
+
+                <h3>بكالوريوس في الحوسبة الصناعية</h3>
+                <p>المعهد العالي للإعلامية والوسائط المتعددة بميدنين | 09/2012 - 06/2015</p>
+
+                <h3>البكالوريا في الإعلامية</h3>
+                <p>ثانوية شارع قابس | 09/2011 - 06/2012</p>
+            </div>
+
+            <div class="section-title">المهارات</div>
+            <div class="skills">
+                <ul>
+                    <li>اللغات: C#, C++</li>
+                    <li>الإطارات والمكتبات: ASP.NET، .NET Framework، NUnit Test، MSTest</li>
+                    <li>الأدوات: Visual Studio 2019-2022، SOLIDWORKS، Autodesk Inventor</li>
+                    <li>الوصول إلى قواعد البيانات: Entity Framework (ORM)، LINQ</li>
+                    <li>الخدمات السحابية: Azure DevOps، git، TFS</li>
+                    <li>واجهة المستخدم: XAML، DevExpress</li>
+                </ul>
+            </div>
+
+            <div class="section-title">الشهادات</div>
+            <div class="certificates">
+                <ul>
+                    <li>منهجية DevOps</li>
+                    <li>مبادئ تطوير البرمجيات C# MTA 98-361</li>
+                    <li>معتمد في أساسيات Scrum (SFC)</li>
+                    <li>C# للمطورين .NET (Coursera) - الدرجة: 90.62%</li>
+                    <li>دليل تعلم C++ (Coursera)</li>
+                    <li>اللغة الإيطالية</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function switchLanguage(language) {
+            var sections = document.querySelectorAll('.language-section');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(language).classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
